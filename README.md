@@ -34,6 +34,7 @@ $ yarn run docs:build
 # check your project for potential problems
 $ yarn run doctor
 ```
+
 ## LICENSE
 
 MIT
