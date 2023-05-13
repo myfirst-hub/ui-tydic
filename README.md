@@ -1,17 +1,8 @@
-# ui-tydic
-
-[![NPM version](https://img.shields.io/npm/v/ui-tydic.svg?style=flat)](https://npmjs.org/package/ui-tydic)
-[![NPM downloads](http://img.shields.io/npm/dm/ui-tydic.svg?style=flat)](https://npmjs.org/package/ui-tydic)
-
-A react library developed with dumi
-
-## Usage
-
 TODO
 
-## Options
+git push: npm config set registry https://registry.npm.taobao.org/
 
-TODO
+npm publish: npm config set registry https://registry.npmjs.org/
 
 ## Development
 
