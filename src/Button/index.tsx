@@ -1,6 +1,5 @@
 import { Button, ButtonProps } from 'antd';
 import React, { type FC } from 'react';
-import './index.less';
 
 interface DicButtonProps extends ButtonProps {
   active?: boolean;
@@ -8,12 +7,8 @@ interface DicButtonProps extends ButtonProps {
 
 const DicButton: FC<DicButtonProps> = (props) => {
   const { active } = props;
-  let ncClassName = '';
-  if (active) {
-    ncClassName = 'activeStatus';
-  }
   return (
-    <Button {...props} className={ncClassName}>
+    <Button {...props} style={active ? { borderColor: '#0748df' } : {}}>
       {props.children}
     </Button>
   );
