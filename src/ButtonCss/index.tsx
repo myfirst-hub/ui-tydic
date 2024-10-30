@@ -1,6 +1,6 @@
 import { Button, ButtonProps } from 'antd';
 import React from 'react';
-import './index.less';
+import './index.css';
 
 interface DicButtonProps extends ButtonProps {
   active?: boolean;
