@@ -22,7 +22,10 @@
     "start": "npm run dev"
   },
   "dependencies": {
-    "antd": "^5.4.7"
+    "antd": "^5.4.7",
+    "echarts": "^5.5.1",
+    "echarts-for-react": "^3.0.2",
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
@@ -32,7 +35,7 @@
     "@umijs/lint": "^4.0.0",
     "dumi": "^2.1.22",
     "eslint": "^8.23.0",
-    "father": "^4.1.0",
+    "father": "4.1.0",
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1",
     "prettier-plugin-organize-imports": "^3.0.0",
