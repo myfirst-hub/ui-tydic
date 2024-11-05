@@ -2,7 +2,7 @@ import React from 'react';
 // import Text from '../text';
 import styles from './index.module.less';
 const TextClick: React.FC<{
-    text?: string,
+    // text?: string,
     list: string[],
     handleClick: (item: string) => {},
 }> = (props) => {

@@ -48,9 +48,10 @@ const lineChart: React.FC<{
             },
             grid: {
                 top: '12%',
-                left: '9%',
-                right: '4%',
-                bottom: '14%',
+                left: '0',
+                right: '8%',
+                bottom: '7%',
+                containLabel: true
             },
             xAxis: {
                 type: 'category',
@@ -91,7 +92,7 @@ const lineChart: React.FC<{
         })
     }, [])
     return (
-        <div style={{ position: 'relative' }}>
+        <div style={{ position: 'relative', width: '396px', height: '100%' }}>
             <div style={style}>{chartHead}</div>
             <ReactEcharts
                 option={option}
