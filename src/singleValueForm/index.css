@@ -1,0 +1,38 @@
+.singleValueTable .labelRow {
+    display: flex;
+    background-color: #F2F5FE;
+    border: 1px solid #C5D6FF;
+}
+
+.singleValueTable .labelRow .labelCol {
+    flex: 1;
+    padding: 8px 12px;
+    color: #1D2129;
+}
+
+.singleValueTable .labelRow > .labelCol:nth-child(2) {
+    border-left: 1px solid #C5D6FF;
+    border-right: 1px solid #C5D6FF;
+}
+
+.singleValueTable .valueRow {
+    display: flex;
+    background-color: #fff;
+    border-left: 1px solid #C5D6FF;
+    border-right: 1px solid #C5D6FF;
+}
+
+.singleValueTable .valueRow .valueCol {
+    flex: 1;
+    padding: 8px 12px;
+    color: #1D2129;
+}
+
+.singleValueTable .valueRow > .valueCol:nth-child(2) {
+    border-left: 1px solid #C5D6FF;
+    border-right: 1px solid #C5D6FF;
+}
+
+.singleValueTable > .valueRow:last-child {
+    border-bottom: 1px solid #C5D6FF;
+}

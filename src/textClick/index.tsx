@@ -1,6 +1,6 @@
 import React from 'react';
 // import Text from '../text';
-import styles from './index.module.less';
+import './index.css';
 const TextClick: React.FC<{
     // text?: string,
     list: string[],
@@ -10,11 +10,11 @@ const TextClick: React.FC<{
     return (
         <>
             {/* <Text text={text} /> */}
-            <div className={styles.mt10}>您还可以继续提问：</div>
+            <div className="mt10">您还可以继续提问：</div>
             <ul>
                 {
                     list.map(item => (
-                        <li className={styles.rowText} onClick={() => handleClick(item)}>{item}</li>
+                        <li className="rowText" onClick={() => handleClick(item)}>{item}</li>
                     ))
                 }
             </ul>
